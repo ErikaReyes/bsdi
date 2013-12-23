@@ -1,0 +1,11 @@
+#---- Eclipse ----
+.project
+
+#---- Wordpress ----
+.htaccess
+wp-config.php
+/wp-content/uploads
+*.ini
+web.config
+*.sublime-project
+*.sublime-workspace
