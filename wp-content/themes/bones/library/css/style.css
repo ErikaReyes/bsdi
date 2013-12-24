@@ -1774,7 +1774,7 @@ NAVIGATION STYLES
     margin-top: 10px;
   }
   .slider {
-    width: 960px;
+    max-width: 960px;
     margin: auto;
   }
   /*********************
