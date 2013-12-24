@@ -91,7 +91,7 @@ body {
 *********************/
 
 .wrap {
-	width: 96%;
+	width: 82%;
 	margin: 0 auto;
 }
 #container {}
@@ -180,15 +180,17 @@ h5, .h5 {
 	height: auto;
 
 	img {
-		width: 100%;
-		height: auto;
+		width: auto;
+		height: 100%;
 	}
 }
 .header {
 	.css-gradient(@azul-oscuro,@azul-dos);
 	#inner-header {}
 
-	#logo {}
+	#logo {
+		max-height: 38px;
+	}
 	
 	nav {
 		div.top-nav {
@@ -209,8 +211,8 @@ h5, .h5 {
 	color: @white;
 	text-align: right;
 	font-weight: 400;
-	font-size: 14px;
-	margin-top: 30px;
+	font-size: 12px;
+	margin-top: 15px;
 }
 
 /*********************
@@ -489,6 +491,13 @@ and more scalable.
 		.size-large {}
 		.size-medium {}
 		.size-thumbnail {}
+
+		/* slider */
+
+		.slider {
+			width: 960px !important;
+			margin: auto;
+		}
 
 /******************************************************************
 09. PAGE NAVI STYLES

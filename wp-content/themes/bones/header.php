@@ -54,14 +54,14 @@
 
 				<div id="inner-header" class="wrap clearfix">
 					<div class="eightcol first clearfix">
-						<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png"></a></p>
+						<p id="logo" class="h1" style="line-height:0px;"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png"></a></p>
 					</div>
-					<div class="fourcol last clearfix direccion">
-						Presidente Masaryk No. 61 piso 2, <br>
-						Col. Chapultepec Morales. <br>
-						C.P. 11570, Polanco, México D.F.
-						<br> 5675-1690
-						<br> ventas@bdsicontadores.com
+					<div class="fourcol last clearfix">
+						<div class="direccion">
+							Presidente Masaryk No. 61 piso 2, Col. Chapultepec Morales. C.P. 11570, Polanco, México D.F.
+							<br> 5675-1690
+							<br> ventas@bdsicontadores.com
+						</div>
 					</div>
 				</div>
 

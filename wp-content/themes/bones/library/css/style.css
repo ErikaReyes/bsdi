@@ -846,7 +846,7 @@ body {
 03. LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
+  width: 82%;
   margin: 0 auto;
 }
 /*********************
@@ -945,8 +945,8 @@ h5,
   height: auto;
 }
 .banner-principal img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 .header {
   background-color: #1b3167;
@@ -956,12 +956,15 @@ h5,
   background-image: -o-linear-gradient(top, #1b399b, #1b3167);
   background-image: linear-gradient(to bottom, #1b399b, #1b3167);
 }
+.header #logo {
+  max-height: 38px;
+}
 .direccion {
   color: #ffffff;
   text-align: right;
   font-weight: 400;
-  font-size: 14px;
-  margin-top: 30px;
+  font-size: 12px;
+  margin-top: 15px;
 }
 /*********************
 07. NAVIGATION STYLES
@@ -1112,6 +1115,11 @@ and more scalable.
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
+/* slider */
+.slider {
+  width: 960px !important;
+  margin: auto;
+}
 /******************************************************************
 09. PAGE NAVI STYLES
 ******************************************************************/

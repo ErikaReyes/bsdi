@@ -6,12 +6,14 @@ Template Name: Template-Home
 
 <?php get_header(); ?>
 
-<div id="content">
+<div id="content" style="margin-top:0px;">
 
 
 	<div id="inner-content" class="wrap clearfix">
-		<div class="twelvecol first slider">
-			<?php putRevSlider("Home") ?>
+		<div class="twelvecol first">
+			<div class="slider">
+				<?php putRevSlider("Home") ?>
+			</div>
 		</div>
 
 		<div class="eightcol first clearfix">
