@@ -573,6 +573,10 @@ NAVIGATION STYLES
 .btn-paddingtop {
   margin-top: 10px;
 }
+.slider {
+  width: 960px;
+  margin: auto;
+}
 /*********************
 SIDEBARS & ASIDES
 *********************/
