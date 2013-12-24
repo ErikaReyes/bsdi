@@ -846,7 +846,7 @@ body {
 03. LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 82%;
+  width: 96%;
   margin: 0 auto;
 }
 /*********************
@@ -1696,7 +1696,7 @@ GENERAL STYLES
 LAYOUT & GRID STYLES
 *********************/
   .wrap {
-    max-width: 1140px;
+    max-width: 960px;
   }
   /*********************
 HEADER STYLES
