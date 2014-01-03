@@ -640,6 +640,7 @@ input[type=submit] {
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
   margin-bottom: 10px;
   line-height: 21px;
@@ -1408,6 +1409,10 @@ img.imagenresponsiva {
   width: 100%;
   height: auto;
 }
+img.wpcf-field-banner-servicios1-value {
+  width: 100%;
+  height: auto;
+}
 /*********************
 14. FOOTER STYLES
 *********************/
@@ -1420,6 +1425,7 @@ img.imagenresponsiva {
   background-image: linear-gradient(to bottom, #1b3169, #13234a);
   color: #ffffff;
   font-size: 12px;
+  margin-top: 20px;
 }
 .footer-txt {
   font-weight: 300;
@@ -1484,6 +1490,19 @@ img.imagenresponsiva {
 .tabs-contenido .panes div {
   padding: 10px;
 }
+/*********************
+16. LINKEDIN STYLES
+*********************/
+/*#wglk {
+	width: 200px;
+	overflow: hidden;
+	display: block;
+	iframe{
+			width: 300px !important;
+			overflow: hidden;
+			display: block;
+	}
+}*/
 /*
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

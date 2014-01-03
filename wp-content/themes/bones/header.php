@@ -46,7 +46,8 @@
 		<div id="container">
 			<div class="banner-principal">
 				<div class="wrap clearfix" align="center">
-					<img src="http://placekitten.com/728/90">
+					<?php echo types_render_field("banner-grande", array("output"=>"html")); ?>
+					<!--<img src="http://placekitten.com/728/90">-->
 				</div>
 			</div>
 
@@ -77,11 +78,11 @@
 							<?php bones_main_nav(); ?>
 						</nav>
 					</div>
-					<div class="twocol clearfix" align="right">
+					<div class="threecol clearfix" align="right">
 						<div class="button blue-cotiza btn-paddingtop" style="margin-top:5px;">¡Cotice ahora!</div>
 					</div>
-					<div class="twocol last clearfix " align="right">
-						<div class="social">
+					<div class="onecol last clearfix " align="right">
+						<div class="social" style="margin-left:-25px;">
 							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png"></a>
 							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png"></a>
 							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png"></a>
