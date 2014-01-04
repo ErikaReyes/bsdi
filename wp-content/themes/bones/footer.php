@@ -99,8 +99,8 @@
 						Todos los términos utilizados,  están ligados directamente al aviso  de privacidad  que la Ley Federal de  Protección  de Datos Personales  en Posesión de Particulares  publicada en el DOF el 5 de julio de 2010.
 					</div>
 
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+<!--<?php echo date('Y'); ?>-->
+					<p class="source-org copyright text-container">&copy;  <?php bloginfo( 'name' ); ?></p>
 				</div>
 				</div>
 

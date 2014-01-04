@@ -61,8 +61,7 @@ Template Name: Template-Home
 					<div id="noticias" class="sixcol last clearfix">
 						<div class="titulo-seccion">Noticias</div>
 						<div class="sombra-titulo"></div>
-						<div class="text-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, nostrum, numquam, excepturi, libero soluta inventore aliquam reiciendis eum delectus praesentium sapiente animi porro cupiditate expedita corporis minus optio enim quaerat.
-						<br><br><span class="button">+ Ver más</span></div>
+						<div > <?php do_action('google_news','negocios-feed' ); ?> <span class="button">+ Ver más</span></div>
 					</div>
 
 
