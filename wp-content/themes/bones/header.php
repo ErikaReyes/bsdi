@@ -78,16 +78,16 @@
 							<?php bones_main_nav(); ?>
 						</nav>
 					</div>
-					<div class="threecol clearfix" align="right">
-						<div class="button blue-cotiza btn-paddingtop" style="margin-top:5px;">¡Cotice ahora!</div>
+					<div class="fourcol clearfix" align="right">
+						<span class="button blue-cotiza btn-paddingtop" style="margin-top:5px; margin-right:30px;">¡Cotice ahora!</span>
+					
+						<span class="social" style="margin-left:-25px;">
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png" style="margin-left:10px;"></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png" style="margin-left:10px;"></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png" style="margin-left:10px;"></a>
+						</span>
 					</div>
-					<div class="onecol last clearfix " align="right">
-						<div class="social" style="margin-left:-25px;">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png"></a>
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png"></a>
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png"></a>
-						</div>
-					</div>
+				</div>
 				</div>
 
 			</header>

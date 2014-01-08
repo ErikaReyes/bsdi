@@ -118,7 +118,7 @@ h1 {
 }
 h2 {
   font-size: 1.5em;
-  margin: 0.83em 0;
+  margin: 0.3em 0;
 }
 h3 {
   font-size: 1.17em;
@@ -800,7 +800,7 @@ body {
 }
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 100%;
+  font-size: 13px;
   line-height: 1.5;
   color: #1c4cc7;
 }
@@ -946,8 +946,8 @@ h5,
   height: auto;
 }
 .banner-principal img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 .header {
   background-color: #1b3167;
@@ -1489,7 +1489,7 @@ img.wpcf-field-banner-servicios1-value {
   color: #ffffff;
 }
 .tabs-contenido .panes div {
-  padding: 10px;
+  padding: 0 10px;
 }
 /*********************
 16. LINKEDIN STYLES
@@ -1721,6 +1721,10 @@ LAYOUT & GRID STYLES
   /*********************
 HEADER STYLES
 *********************/
+  .banner-principal img {
+    width: auto;
+    height: 100%;
+  }
   /*********************
 NAVIGATION STYLES
 *********************/
@@ -1801,7 +1805,7 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
   .sidebar {
-    margin-top: 2.2em;
+    margin-top: 0em;
   }
   .widgettitle {
     border-bottom: 2px solid #444;

@@ -61,7 +61,24 @@ Template Name: Template-Home
 					<div id="noticias" class="sixcol last clearfix">
 						<div class="titulo-seccion">Noticias</div>
 						<div class="sombra-titulo"></div>
-						<div > <?php do_action('google_news','negocios-feed' ); ?> <span class="button">+ Ver más</span></div>
+						<div>
+									<?php $args = array(
+									'posts_per_page' => 5,
+									'post_status' => 'publish',
+									'category_name' => 'noticias'
+									);
+									$noticias = new WP_Query( $args ); ?>
+									<?php if ($noticias -> have_posts()) : while ($noticias -> have_posts()) : $noticias -> the_post(); ?>
+									<h3 class="h3"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+									<p><?php the_excerpt(); ?></p>
+							
+							
+									<?php endwhile; ?>
+								<?php else : ?>
+								<?php endif; wp_reset_query();?>
+
+						</div>
+
 					</div>
 
 
@@ -84,6 +101,7 @@ Template Name: Template-Home
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>-->
 						</div>
+						<p style="text-align: right;"><a href="http://localhost/bsdi/nuestros-servicios/"><span class="button">+ Ver más</span></a></p>
 					</div>
 				</div>
 				<div class="twelvecol first clearfix">
