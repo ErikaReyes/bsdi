@@ -1489,7 +1489,7 @@ img.wpcf-field-banner-servicios1-value {
   color: #ffffff;
 }
 .tabs-contenido .panes div {
-  padding: 0 10px;
+  padding: 3px 10px;
 }
 /*********************
 16. LINKEDIN STYLES
@@ -1738,6 +1738,7 @@ NAVIGATION STYLES
   .nav li {
     float: left;
     position: relative;
+    width: auto;
     /*
 		plan your menus and drop-downs wisely.
 		*/
@@ -1778,7 +1779,7 @@ NAVIGATION STYLES
     padding-left: 10px;
     border-right: 0;
     display: block;
-    width: 180px;
+    width: auto;
     border-bottom: 1px solid #ccc;
   }
   .nav li ul.sub-menu li:last-child a,

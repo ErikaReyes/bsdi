@@ -95,7 +95,6 @@ Template Name: Template-Home
 							<?php echo types_render_field("banner-servicios1", array("output"=>"html")); ?><br><br>
 							<?php echo types_render_field("banner-servicios2", array("output"=>"html")); ?><br><br>
 							<?php echo types_render_field("banner-servicios3", array("output"=>"html")); ?><br><br>
-							<?php echo types_render_field("banner-servicios4", array("output"=>"html")); ?><br><br>
 							<!--<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
