@@ -156,7 +156,7 @@ Template Name: Template-Home
 												<?php endif; wp_reset_query();?>
 											</div>
 										</div>
-									</div>
+									</div> 
 					
 				</div>
 			</div>
