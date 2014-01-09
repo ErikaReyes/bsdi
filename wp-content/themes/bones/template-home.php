@@ -92,9 +92,9 @@ Template Name: Template-Home
 					</div>
 					<div class="fourcol last">
 						<div class="text-containerV imagenresponsiva">
-							<?php echo types_render_field("banner-servicios1", array("output"=>"html")); ?><br><br>
-							<?php echo types_render_field("banner-servicios2", array("output"=>"html")); ?><br><br>
-							<?php echo types_render_field("banner-servicios3", array("output"=>"html")); ?><br><br>
+							<?php echo types_render_field("banner-servicios1", array("output"=>"html")); ?><br>
+							<?php echo types_render_field("banner-servicios2", array("output"=>"html")); ?><br>
+							<?php echo types_render_field("banner-servicios3", array("output"=>"html")); ?>
 							<!--<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
