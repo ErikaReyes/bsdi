@@ -74,9 +74,9 @@
 							<span class="button button-cotiza ">¡Cotice ahora!</span>
 							<h4>¡Síguenos!</h4>
 							<div class="social" align="left">
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png"></a>
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png"></a>
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png"></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png" style="margin-right: 10px;"></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png" style="margin-right: 10px;"></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png" style="margin-right: 10px;"></a>
 							</div>
 						</ul>
 					</div>
