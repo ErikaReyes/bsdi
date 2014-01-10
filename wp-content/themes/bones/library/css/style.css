@@ -1461,7 +1461,7 @@ img.wpcf-field-banner-servicios1-value {
   background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
   background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   overflow: hidden;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .tabs-contenido ul.tabs {
   list-style: none;
@@ -1491,7 +1491,7 @@ img.wpcf-field-banner-servicios1-value {
   color: #ffffff;
 }
 .tabs-contenido .panes div {
-  padding: 3px 10px;
+  padding: 3px 10px 0px;
 }
 /*********************
 16. LINKEDIN STYLES
