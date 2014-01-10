@@ -84,10 +84,10 @@
 				</div>
 			</footer>
 			<footer id="container" class="footer2">
-				<div id="inner-footer" class="wrap clearfix">
-					<div class="cintillo-footer" style="margin-bottom:20px;">Llámenos: 5676-8990  |  Presidente Masaryk No. 61 piso 2 Col. Chapultepec Morales, C.P. 11570, Polanco, México, D.F. 
+				<div id="inner-footer" class="wrap clearfix" style="line-height:1;">
+					<div class="cintillo-footer">Llámenos: 5676-8990  |  Presidente Masaryk No. 61 piso 2 Col. Chapultepec Morales, C.P. 11570, Polanco, México, D.F. 
 					</div>
-					<div class="twelvecol clearfix" style="margin-bottom:20px;">
+					<div class="twelvecol clearfix">
 					<nav role="navigation">
 							<?php bones_footer_links(); ?>
 					</nav>
@@ -100,7 +100,7 @@
 					</div>
 
 <!--<?php echo date('Y'); ?>-->
-					<p class="source-org copyright text-container">&copy;  <?php bloginfo( 'name' ); ?></p>
+					<p class="source-org copyright text-containerH">&copy;  <?php bloginfo( 'name' ); ?></p>
 				</div>
 				</div>
 

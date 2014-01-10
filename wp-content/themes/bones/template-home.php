@@ -59,7 +59,7 @@ Template Name: Template-Home
 					</div>
 
 					<div id="noticias" class="sixcol last clearfix">
-						<div class="titulo-seccion">Noticias</div>
+						<div class="titulo-seccion" style=" margin-top: 30px;"><a href="http://dev.clicker360.com/bsdi/category/noticias/" style="text-decoration: none; color:white;">Noticias</a></div>
 						<div class="sombra-titulo"></div>
 						<div class="text-containerH">
 									<?php $args = array(
@@ -86,11 +86,11 @@ Template Name: Template-Home
 				<div class="twelvecol first clearfix">
 					<div class="titulo-seccion">Nuestros servicios</div>
 					<div class="sombra-titulo"></div>
-					<div class="eightcol first">
-						<div class="text-containerV"><?php echo get_post_meta($post->ID, 'servicios', true); ?>
+					<div class="ninecol first">
+						<div class="text-containerH"><?php echo get_post_meta($post->ID, 'servicios', true); ?>
 						</div>
 					</div>
-					<div class="fourcol last">
+					<div class=" last">
 						<div class="text-containerV imagenresponsiva">
 							<?php echo types_render_field("banner-servicios1", array("output"=>"html")); ?><br>
 							<?php echo types_render_field("banner-servicios2", array("output"=>"html")); ?><br>
