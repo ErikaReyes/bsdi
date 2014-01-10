@@ -963,8 +963,8 @@ h5,
 .direccion {
   color: #ffffff;
   text-align: right;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 200;
+  font-size: 11px;
   margin-top: 15px;
 }
 /*********************
@@ -980,7 +980,7 @@ and more scalable.
 .nav {
   border: 1px solid #ccc;
   border-bottom: 0;
-  font-size: 15px;
+  font-size: 14px;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
@@ -998,7 +998,7 @@ and more scalable.
   display: block;
   text-decoration: none;
   padding: 10px 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0px solid #ccc;
   color: #ffffff;
   text-align: center;
   /*
@@ -1406,8 +1406,11 @@ img {
 .text-containerV {
   padding: 25px 0;
 }
+.text-containerH {
+  padding: 0 25px;
+}
 img.imagenresponsiva {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 img.wpcf-field-banner-servicios1-value {
@@ -1716,7 +1719,7 @@ GENERAL STYLES
 LAYOUT & GRID STYLES
 *********************/
   .wrap {
-    max-width: 960px;
+    max-width: 900px;
   }
   /*********************
 HEADER STYLES

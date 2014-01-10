@@ -61,7 +61,7 @@ Template Name: Template-Home
 					<div id="noticias" class="sixcol last clearfix">
 						<div class="titulo-seccion">Noticias</div>
 						<div class="sombra-titulo"></div>
-						<div>
+						<div class="text-containerH">
 									<?php $args = array(
 									'posts_per_page' => 5,
 									'post_status' => 'publish',
@@ -100,7 +100,7 @@ Template Name: Template-Home
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>-->
 						</div>
-						<p style="text-align: right;"><a href="http://localhost/bsdi/nuestros-servicios/"><span class="button">+ Ver más</span></a></p>
+						<p style="text-align: right;"><a href="http://dev.clicker360.com/bsdi/nuestros-servicios/"><span class="button">+ Ver más</span></a></p>
 					</div>
 				</div>
 				<div class="twelvecol first clearfix">

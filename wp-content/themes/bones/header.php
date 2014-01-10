@@ -45,13 +45,13 @@
 
 		<div id="container">
 			<div class="banner-principal">
-				<div class="wrap clearfix" align="center">
+				<div class="wrap clearfix" align="center" style="margin-bottom:2px;">
 					<?php echo types_render_field("banner-grande", array("output"=>"html")); ?>
 					<!--<img src="http://placekitten.com/728/90">-->
 				</div>
 			</div>
 
-			<header class="header" role="banner">
+			<header class="header" role="banner" >
 
 				<div id="inner-header" class="wrap clearfix">
 					<div class="eightcol first clearfix">
