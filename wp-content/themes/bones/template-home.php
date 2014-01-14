@@ -71,13 +71,14 @@ Template Name: Template-Home
 									<?php if ($noticias -> have_posts()) : while ($noticias -> have_posts()) : $noticias -> the_post(); ?>
 									<ul>
 									<li><h3 class="h3"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p><?php the_excerpt(); ?></p></li>
+									<!--<p><?php the_excerpt(); ?></p>--></li>
 									<ul>
 							
 							
 									<?php endwhile; ?>
 								<?php else : ?>
 								<?php endif; wp_reset_query();?>
+								<div class="button" style="float:right;">Leer más &raquo;</div>
 
 						</div>
 

@@ -81,7 +81,7 @@
 			</footer>
 			<footer>
 				<div class="cintillo">
-				<div class="cintillo-footer">Llámenos: 5676-8990  |  Presidente Masaryk No. 61 piso 2 Col. Chapultepec Morales, C.P. 11570, Polanco, México, D.F. 
+				<div class="cintillo-footer">Llámenos: 3300-5489   |  Torre Mariano Escobedo, Mariano Escobedo 476 Piso 12, Col. Nueva Anzures, C.P. 11590, México, D.F.
 					</div>
 					</div>
 			</footer>
@@ -104,7 +104,7 @@
 					<div class="twelvecol first clearfix">
 						<div class="text-containerV textfooter">
 							El contenido de esta página es propiedad de  BdSI México contadores, S.C. | Todos los derechos reservados. <br><br>
-							BdSI  México contadores, S.C.. en adelante  "BdSI”,  estamos preocupados por la seguridad  y confidencialidad de sus datos personales , motivo por el cual le externamos nuestro  compromiso de proteger su privacidad y cumplir con la legislación aplicable a la protección de datos personales en posesión de los particulares. BdSI es el responsable de recabar sus datos personales, por lo que,  ante cualquier posible  pregunta  lo invitamos a que nos escriba  en  <b>ventas@bdsicontadores.com</b>, o nos visite directamente en nuestro domicilio fiscal ubicado en Torre Mariano Escobedo Piso 12, Mariano Escobedo 476, Col. Nueva Anzures, C.P. 11590, México, D.F.
+							BdSI  México contadores, S.C.. en adelante  "BdSI”,  estamos preocupados por la seguridad  y confidencialidad de sus datos personales , motivo por el cual le externamos nuestro  compromiso de proteger su privacidad y cumplir con la legislación aplicable a la protección de datos personales en posesión de los particulares. BdSI es el responsable de recabar sus datos personales, por lo que,  ante cualquier posible  pregunta  lo invitamos a que nos escriba  en  <b>ventas@bdsicontadores.com</b>, o nos visite directamente en nuestro domicilio fiscal ubicado en Torre Mariano Escobedo, Mariano Escobedo 476 Piso 12, Col. Nueva Anzures, C.P. 11590, México, D.F.
 							<br><br>
 							Todos los términos utilizados,  están ligados directamente al aviso  de privacidad  que la Ley Federal de  Protección  de Datos Personales  en Posesión de Particulares  publicada en el DOF el 5 de julio de 2010.
 						</div>

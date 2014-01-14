@@ -64,9 +64,9 @@
 					</div>
 					<div class="twocol last clearfix">
 						<div class="direccion">
-							Torre Mariano Escobedo Piso 12, Mariano Escobedo 476, Col. Nueva Anzures, C.P. 11590, D.F.
+							Torre Mariano Escobedo, Mariano Escobedo 476 Piso 12, Col. Nueva Anzures, C.P. 11590, D.F.
 							<br> Tel: (55) 3300-5489 
-							<br> ventas@bdsicontadores.com
+							<br> ventas@bdsi.com.mx
 						</div>
 					</div>
 				</div>
