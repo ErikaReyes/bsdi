@@ -64,8 +64,8 @@
 					</div>
 					<div class="twocol last clearfix">
 						<div class="direccion">
-							Presidente Masaryk No. 61 piso 2, Col. Chapultepec Morales. C.P. 11570, Polanco, México D.F.
-							<br> Tel: 5675-1690
+							Torre Mariano Escobedo Piso 12, Mariano Escobedo 476, Col. Nueva Anzures, C.P. 11590, D.F.
+							<br> Tel: (55) 3300-5489 
 							<br> ventas@bdsicontadores.com
 						</div>
 					</div>
