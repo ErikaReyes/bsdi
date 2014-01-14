@@ -1835,8 +1835,9 @@ SIDEBARS & ASIDES
     margin-bottom: 0.75em;
   }
   .widget {
-    padding: 0 10px;
+    padding: 0px;
     margin: 2.2em 0;
+    float: right;
   }
   .widget ul li {
     margin-bottom: 0.75em;
