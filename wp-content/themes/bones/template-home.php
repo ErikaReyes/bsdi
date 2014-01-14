@@ -19,7 +19,7 @@ Template Name: Template-Home
 		<div class="eightcol first clearfix">
 			<div class="twelvecol first clearfix">
 				<div id="main" class="sixcol first clearfix" role="main">
-					<div class="text-container">	
+					<div class="text-containerV">	
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -61,7 +61,7 @@ Template Name: Template-Home
 					<div id="noticias" class="sixcol last clearfix">
 						<div class="titulo-seccion" style=" margin-top: 30px;"><a href="http://dev.clicker360.com/bsdi/category/noticias/" style="text-decoration: none; color:white;">Noticias</a></div>
 						<div class="sombra-titulo"></div>
-						<div class="text-containerH">
+						<div class="text-containerH entry-content">
 									<?php $args = array(
 									'posts_per_page' => 5,
 									'post_status' => 'publish',
@@ -69,8 +69,10 @@ Template Name: Template-Home
 									);
 									$noticias = new WP_Query( $args ); ?>
 									<?php if ($noticias -> have_posts()) : while ($noticias -> have_posts()) : $noticias -> the_post(); ?>
-									<h3 class="h3"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p><?php the_excerpt(); ?></p>
+									<ul>
+									<li><h3 class="h3"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+									<p><?php the_excerpt(); ?></p></li>
+									<ul>
 							
 							
 									<?php endwhile; ?>
@@ -100,7 +102,7 @@ Template Name: Template-Home
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>-->
 						</div>
-						<p style="text-align: right;"><a href="http://dev.clicker360.com/bsdi/nuestros-servicios/"><span class="button">+ Ver más</span></a></p>
+						<p style="text-align: right; margin-right:20px;"><a href="http://dev.clicker360.com/bsdi/nuestros-servicios/"><span class="button">Ver más &raquo;</span></a></p>
 					</div>
 				</div>
 				<div class="twelvecol first clearfix">

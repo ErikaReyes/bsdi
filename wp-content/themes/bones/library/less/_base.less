@@ -39,7 +39,7 @@ html, body {
 	/* height: 100%; */
 }
 body {
-	font-family: @fuente;
+	font-family: @sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
 	color: @texto-azul;
@@ -129,7 +129,7 @@ a, a:visited {
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	font-family: @fuente;
+	font-family: @sans-serif;
 	text-rendering: optimizelegibility;
 	font-weight: 600;
 	/*
@@ -228,8 +228,8 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
-	border-bottom: 0;
+	//border: 1px solid #ccc;
+	//border-bottom: 0;
 	font-size: 14px;
 
 	li {
@@ -239,7 +239,7 @@ and more scalable.
 			text-decoration: none;
 			padding: 10px 10px;
 			//background-color: #eee;
-			border-bottom: 0px solid #ccc;
+			//border-bottom: 0px solid #ccc;
 			color: @link-nav;
 			text-align: center;
 
@@ -303,8 +303,9 @@ and more scalable.
 
 
 .social{
-	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: left;
 }
 
 .fb-btn{
@@ -321,6 +322,15 @@ and more scalable.
 	background-image: url(../images/social-linked.png);
 	width: 23px;
 	height: 23px;
+}
+
+.btn-paddingtop{
+	margin-top: 5px;
+}
+
+.btn-header{
+	margin-left: 15px;
+	position: absolute;
 }
 
 /*********************
@@ -390,7 +400,7 @@ and more scalable.
 			}
 
 			ul {
-				list-style-image: url('../images/bullet-blue.png');
+				list-style-image: url('../images/bullet-check.png');
 
 				li {}
 
@@ -961,7 +971,7 @@ and more scalable.
 
 .titulo-seccion{
 	padding: 2px 20px;
-	font-family: @fuente;
+	font-family: @sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	background-image: url(../images/bluebg.jpg);
@@ -998,8 +1008,9 @@ img.wpcf-field-banner-servicios1-value{
 *********************/
 
 #footer1 {
-	.css-gradient(@azul-footer, @azul-oscurofooter);
-	color: @white;
+	//.css-gradient(@azul-oscuro, @azul-dos);
+	background-color: @white;
+	color: @azul-dos;
 	font-size: 12px;
 	margin-top: 20px;
 }
@@ -1009,11 +1020,11 @@ img.wpcf-field-banner-servicios1-value{
 }
 
 .footer2 { 
-	margin-top: 25px;
+	margin-top: 5px;
 	width: 100%;
-	background-color: @azul-oscurofooter;
+	background-color: @azul-dos;
 	color: @white;
-	padding: 25px;
+	padding: 0px;
 }
 
 .textfooter {
@@ -1022,10 +1033,15 @@ img.wpcf-field-banner-servicios1-value{
 }
 
 .cintillo-footer{
-	background-color: #091021;
+	background-color: #122041;
 	color: @white;
 	text-align: center;
 	padding: 8px;
+	margin-top: 5px;
+}
+
+.social-footer{
+	margin-top: 20px;
 }
 
 /*********************
@@ -1064,6 +1080,7 @@ img.wpcf-field-banner-servicios1-value{
 		}
 	}
 	.panes{
+		margin-bottom: -15px;
 		div{
 			padding: 3px 10px 0px;
 		}

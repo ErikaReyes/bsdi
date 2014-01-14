@@ -44,23 +44,28 @@
 	<body <?php body_class(); ?>>
 
 		<div id="container">
-			<div class="banner-principal">
-				<div class="wrap clearfix" align="center" style="margin-bottom:2px;">
-					<?php echo types_render_field("banner-grande", array("output"=>"html")); ?>
-					<!--<img src="http://placekitten.com/728/90">-->
-				</div>
-			</div>
 
 			<header class="header" role="banner" >
 
 				<div id="inner-header" class="wrap clearfix">
 					<div class="eightcol first clearfix">
 						<p id="logo" class="h1" style="line-height:0px;"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png"></a></p>
+						<nav id="menu" class="nav" role="navigation">
+							<?php bones_main_nav(); ?>
+						</nav>
 					</div>
-					<div class="fourcol last clearfix">
+					<div class="twocol clearfix">
+						<span class="social">
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png"></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png" style="margin-left:10px;"></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png" style="margin-left:10px;"></a>
+						</span>
+						<span class="button blue-cotiza btn-paddingtop btn-header">¡Cotice ahora! &raquo;</span>
+					</div>
+					<div class="twocol last clearfix">
 						<div class="direccion">
 							Presidente Masaryk No. 61 piso 2, Col. Chapultepec Morales. C.P. 11570, Polanco, México D.F.
-							<br> 5675-1690
+							<br> Tel: 5675-1690
 							<br> ventas@bdsicontadores.com
 						</div>
 					</div>
@@ -73,20 +78,6 @@
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 
-					<div class="eightcol first clearfix">
-						<nav id="menu" class="nav" role="navigation">
-							<?php bones_main_nav(); ?>
-						</nav>
-					</div>
-					<div class="fourcol clearfix" align="right">
-						<span class="button blue-cotiza btn-paddingtop" style="margin-top:5px; margin-right:30px;">¡Cotice ahora!</span>
-					
-						<span class="social" style="margin-left:-25px;">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-facebook.png" style="margin-left:10px;"></a>
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png" style="margin-left:10px;"></a>
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png" style="margin-left:10px;"></a>
-						</span>
-					</div>
 				</div>
 				</div>
 

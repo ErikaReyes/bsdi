@@ -799,7 +799,7 @@ body {
   /* height: 100%; */
 }
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.5;
   color: #1c4cc7;
@@ -888,7 +888,7 @@ h4,
 .h4,
 h5,
 .h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizelegibility;
   font-weight: 600;
   /*
@@ -978,8 +978,6 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
-  border: 1px solid #ccc;
-  border-bottom: 0;
   font-size: 14px;
   /* end .menu li */
   /* highlight current page */
@@ -998,7 +996,6 @@ and more scalable.
   display: block;
   text-decoration: none;
   padding: 10px 10px;
-  border-bottom: 0px solid #ccc;
   color: #ffffff;
   text-align: center;
   /*
@@ -1014,8 +1011,9 @@ and more scalable.
 }
 /* end .nav */
 .social {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  float: left;
 }
 .fb-btn {
   background-image: url(../images/social-facebook.png);
@@ -1031,6 +1029,13 @@ and more scalable.
   background-image: url(../images/social-linked.png);
   width: 23px;
   height: 23px;
+}
+.btn-paddingtop {
+  margin-top: 5px;
+}
+.btn-header {
+  margin-left: 15px;
+  position: absolute;
 }
 /*********************
 08. POSTS & CONTENT STYLES
@@ -1073,7 +1078,7 @@ and more scalable.
 			*/
 }
 .entry-content ul {
-  list-style-image: url('../images/bullet-blue.png');
+  list-style-image: url('../images/bullet-check.png');
 }
 .entry-content dd {
   margin-left: 0;
@@ -1388,7 +1393,7 @@ img {
 *********************/
 .titulo-seccion {
   padding: 2px 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   background-image: url(../images/bluebg.jpg);
@@ -1420,13 +1425,8 @@ img.wpcf-field-banner-servicios1-value {
 14. FOOTER STYLES
 *********************/
 #footer1 {
-  background-color: #13234a;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b3169), to(#13234a));
-  background-image: -webkit-linear-gradient(top, #1b3169, #13234a);
-  background-image: -moz-linear-gradient(top, #1b3169, #13234a);
-  background-image: -o-linear-gradient(top, #1b3169, #13234a);
-  background-image: linear-gradient(to bottom, #1b3169, #13234a);
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1b3167;
   font-size: 12px;
   margin-top: 20px;
 }
@@ -1434,21 +1434,25 @@ img.wpcf-field-banner-servicios1-value {
   font-weight: 300;
 }
 .footer2 {
-  margin-top: 25px;
+  margin-top: 5px;
   width: 100%;
-  background-color: #13234a;
+  background-color: #1b3167;
   color: #ffffff;
-  padding: 25px;
+  padding: 0px;
 }
 .textfooter {
   font-size: 10px;
   font-weight: 200;
 }
 .cintillo-footer {
-  background-color: #091021;
+  background-color: #122041;
   color: #ffffff;
   text-align: center;
   padding: 8px;
+  margin-top: 5px;
+}
+.social-footer {
+  margin-top: 20px;
 }
 /*********************
 15. CONTENT STYLES
@@ -1489,6 +1493,9 @@ img.wpcf-field-banner-servicios1-value {
 .tabs-contenido ul.tabs li a.current {
   background-color: #1b399b;
   color: #ffffff;
+}
+.tabs-contenido .panes {
+  margin-bottom: -15px;
 }
 .tabs-contenido .panes div {
   padding: 3px 10px 0px;
@@ -1553,6 +1560,15 @@ NAVIGATION STYLES
 					*/
   }
   /* end .menu */
+  .btn-paddingtop {
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .btn-header {
+    margin-left: 15px;
+    position: absolute;
+    float: left;
+  }
   /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -1761,7 +1777,6 @@ NAVIGATION STYLES
   .nav li ul.sub-menu,
   .nav li ul.children {
     margin-top: 0;
-    border: 1px solid #ccc;
     border-top: 0;
     position: absolute;
     display: none;
@@ -1782,7 +1797,6 @@ NAVIGATION STYLES
     border-right: 0;
     display: block;
     width: auto;
-    border-bottom: 1px solid #ccc;
   }
   .nav li ul.sub-menu li:last-child a,
   .nav li ul.children li:last-child a {
@@ -1794,11 +1808,17 @@ NAVIGATION STYLES
   }
   /* end .nav */
   .social {
-    margin-top: 8px;
+    position: absolute;
+    padding-top: 30px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
   .btn-paddingtop {
-    margin-top: 10px;
+    margin-top: 80px;
+  }
+  .btn-header {
+    margin-left: -15px;
+    position: absolute;
   }
   .slider {
     max-width: 960px;
