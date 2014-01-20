@@ -59,7 +59,7 @@ Template Name: Template-Home
 					</div>
 
 					<div id="noticias" class="sixcol last clearfix">
-						<div class="titulo-seccion" style=" margin-top: 30px;"><a href="http://dev.clicker360.com/bsdi/category/noticias/" style="text-decoration: none; color:white;">Noticias</a></div>
+						<div class="titulo-seccion" style=" margin-top: 30px;"><a href="http://www.bdsi.com.mx/bsdi/category/noticias/" style="text-decoration: none; color:white;">Noticias</a></div>
 						<div class="sombra-titulo"></div>
 						<div class="text-containerH entry-content">
 									<?php $args = array(
@@ -103,7 +103,7 @@ Template Name: Template-Home
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>
 							<img class="imagenresponsiva" src="http://placekitten.com/235/95"> <br><br>-->
 						</div>
-						<p style="text-align: right; margin-right:20px;"><a href="http://dev.clicker360.com/bsdi/nuestros-servicios/"><span class="button">Ver más &raquo;</span></a></p>
+						<p style="text-align: right; margin-right:20px;"><a href="http://www.bdsi.com.mx/bsdi/nuestros-servicios/"><span class="button">Ver más &raquo;</span></a></p>
 					</div>
 				</div>
 				<div class="twelvecol first clearfix">

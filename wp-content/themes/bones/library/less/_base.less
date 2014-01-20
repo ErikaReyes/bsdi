@@ -355,7 +355,7 @@ and more scalable.
 		.page-title {
 			color: @black;
 			font-weight: 200;
-			line-height: .7em;
+			line-height: 1em;
 		}
 
 		.single-title {}
@@ -1030,6 +1030,7 @@ img.wpcf-field-banner-servicios1-value{
 .textfooter {
 	font-size: 10px;
 	font-weight: 200;
+	margin-bottom: 20px;
 }
 
 .cintillo-footer{
@@ -1038,10 +1039,18 @@ img.wpcf-field-banner-servicios1-value{
 	text-align: center;
 	padding: 8px;
 	margin-top: 5px;
+		a{
+			text-decoration: none;
+			color: @white;
+				&:hover,
+				&:focus{
+					color: #ccc;
+				}
+		}
 }
 
 .social-footer{
-	margin-top: 20px;
+	margin-top: 7px;
 }
 
 /*********************
@@ -1052,6 +1061,7 @@ img.wpcf-field-banner-servicios1-value{
 	.css-gradient(@white,lighten(@black, 90%));
 	overflow: hidden;
 	padding-bottom: 0px;
+	margin-top: 5px;
 	ul.tabs{
 		list-style: none;
 		padding: 0;
@@ -1080,7 +1090,7 @@ img.wpcf-field-banner-servicios1-value{
 		}
 	}
 	.panes{
-		margin-bottom: -15px;
+		margin-bottom: 0px;
 		div{
 			padding: 3px 6px 0px;
 		}

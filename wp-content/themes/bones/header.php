@@ -60,7 +60,7 @@
 							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-twitter.png" style="margin-left:10px;"></a>
 							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/library/images/social-linked.png" style="margin-left:10px;"></a>
 						</span>
-						<span class="button blue-cotiza btn-paddingtop btn-header">¡Cotice ahora! &raquo;</span>
+						<a href="http://www.bdsi.com.mx/wp-content/uploads/2014/01/Cuestionario-clientes-2014-BdSI.xls"><span class="button blue-cotiza btn-paddingtop btn-header">¡Cotice ahora! &raquo;</span></a>
 					</div>
 					<div class="twocol last clearfix">
 						<div class="direccion">
